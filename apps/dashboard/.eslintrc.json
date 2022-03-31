@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "angularPriductionGradeFem",
+            "prefix": "angularProductionGradeFem",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "angular-priduction-grade-fem",
+            "prefix": "angular-production-grade-fem",
             "style": "kebab-case"
           }
         ]

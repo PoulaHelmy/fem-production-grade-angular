@@ -2,7 +2,7 @@
   "projectType": "application",
   "root": "apps/dashboard",
   "sourceRoot": "apps/dashboard/src",
-  "prefix": "angular-priduction-grade-fem",
+  "prefix": "angular-production-grade-fem",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

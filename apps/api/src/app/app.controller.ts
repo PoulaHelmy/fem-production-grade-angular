@@ -1,6 +1,6 @@
-import { Controller, Get } from '@nestjs/common';
+import {Controller, Get, Param} from '@nestjs/common';
 
-import { Message } from '@angular-priduction-grade-fem/api-interfaces';
+import { Message } from '@angular-production-grade-fem/api-interfaces';
 
 import { AppService } from './app.service';
 
@@ -11,5 +11,10 @@ export class AppController {
   @Get('hello')
   getData(): Message {
     return this.appService.getData();
+  }
+
+  @Get('poula/:id')
+  getData2(@Param('id') id:string): Message {
+    return this.appService.getData2(`Welcome POULA to api! #${id}`);
   }
 }

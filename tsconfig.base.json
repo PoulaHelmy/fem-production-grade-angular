@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-priduction-grade-fem/api-interfaces": [
+      "@angular-production-grade-fem/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
       ]
     }
