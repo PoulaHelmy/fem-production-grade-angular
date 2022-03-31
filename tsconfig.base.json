@@ -17,7 +17,11 @@
     "paths": {
       "@angular-production-grade-fem/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
-      ]
+      ],
+      "@angular-production-grade-fem/core-data": [
+        "libs/core-data/src/index.ts"
+      ],
+      "@angular-production-grade-fem/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
